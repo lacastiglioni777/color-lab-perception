@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: color-lab-perception
+    runtime: static
+    buildCommand: echo "No build needed; standalone HTML site"
+    staticPublishPath: ./public
